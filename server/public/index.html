@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sensor Variable Font - Meteo</title>
+        <link rel=StyleSheet href="style.css" type="text/css" media=screen>
+        <!-- para poder tener la biblioteca de SocketIo que comunica en tiempo real -->
+        <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+        <!-- para comunicarnos con el Js -->
+        <script src="/main.js" charset="utf-8"></script>
+  
+    </head>
+    <body>
+        
+        <!-- ASIGNO EL ID temperature que he puesto en main.js EN EL HTML -->
+        <!--<div id="valorModificaEjeVariacion"><span id="muestroValorSensor"></span></div> 
+        <div id="valorModificaEjeVariacion2">III</div> -->
+        
+        <div class="cont">
+            <img id="fondo" src="ilustraciones-prototipos-meteo-05.svg">
+            <!-- ASIGNO EL ID que he puesto en main.js EN EL HTML -->
+            <div id="valorModificaEjeVariacion">
+                <span id="muestroValorSensor"></span>
+            </div>
+
+            <div id="valorModificaEjeVariacion2">
+                III
+            </div>
+            
+            <div id="info">
+                <div id="Modulo11"><span class="bold">Sensor:</span> Temperatura y Lluvia</div>
+                <div id="Modulo21"><span class="bold">Tipografía variable:</span> Source Sans Variable, Roman e Italic</div>
+                <div id="Modulo31"><span class="bold">Eje de variación:</span> Peso</div>
+                <div id="Modulo41"><span class="bold">Función significativa:</span> Secuencialidad + Continuidad</div>
+                
+                <div id="Modulo12" class="bold">Función normalizadora:</div>
+                <div id="Modulo22">&nbsp;</div>
+                <div id="Modulo32">&nbsp;</div>
+                <div id="Modulo42">Valor registrado:</div>
+
+                <div id="Modulo13">Valor temperatura</div>
+                <div id="Modulo23" class="thin">20</div>
+                <div id="Modulo33" class="thin">45</div>
+                <div id="Modulo43"><span id="muestroValorSensorBis"></span></div>
+
+                <div id="Modulo14">Valor lluvia</div>
+                <div id="Modulo24" class="thin">2</div>
+                <div id="Modulo34" class="thin">265</div>
+                <div id="Modulo44"><span id="muestroValorSensor2"></span></div>
+
+                <div id="Modulo15">Valor e.peso temperatura</div>
+                <div id="Modulo25" class="thin">200</div>
+                <div id="Modulo35" class="thin">900</div>
+                <div id="Modulo45"><span id="muestroValorEjeVariacion"></span></div>
+
+                <div id="Modulo16">Valor e.peso lluvia</div>
+                <div id="Modulo26" class="thin">200</div>
+                <div id="Modulo36" class="thin">900</div>
+                <div id="Modulo46"><span id="muestroValorEjeVariacion2"></span></div>
+           
+           
+            </div>
+       
+        </div>
+
+    
+    </body>
+</html>
