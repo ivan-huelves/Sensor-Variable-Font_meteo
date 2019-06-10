@@ -5,7 +5,7 @@ Providing variable fonts with a semantic use in graphic interfaces to establish 
 
 ## Prototipo Nº3. Sensor de temperatura y agua aplicado al peso de la tipografía en un panel informativo interactivo
 
-![Sensor Variable Font - meteo](/img/sensorvariablefont-meteo.jpg)
+[![Sensor Variable Font - meteo](/img/sensorvariablefont-meteo.jpg)](https://vimeo.com/341421909 "Sensor Variable Font - meteo")
 
 En el tercer prototipo se pretende explorar la relación entre sensores que detecten fenómenos climatológicos con las capacidades expresivas de la tipografía en el espacio público de las ciudades. Para ello se ha empleado un sensor de temperatura y de nivel de agua (simulando un sensor de lluvia) en un panel informativo electrónico o más comúnmente conocido como mupi.
 
