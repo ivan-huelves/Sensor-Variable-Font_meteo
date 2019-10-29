@@ -1,19 +1,20 @@
 # Sensor Variable Font - meteo
-El proyecto da un uso semántico a las tipografías variables en interfaces gráficas, estableciendo una relación entre la propia tipografía y los datos recogidos por diferentes sensores.
-
 Providing variable fonts with a semantic use in graphic interfaces to establish a relationship between typography and the data collected by different sensors.
 
-## Prototipo Nº3. Sensor de temperatura y agua aplicado al peso de la tipografía en un panel informativo interactivo
+El proyecto da un uso semántico a las tipografías variables en interfaces gráficas, estableciendo una relación entre la propia tipografía y los datos recogidos por diferentes sensores.
+
+## Prototype Nº3. Temperature and water sensor applied to the weight of the typography in an interactive informative panel
 
 [![Sensor Variable Font - meteo](/img/sensorvariablefont-meteo.jpg)](https://vimeo.com/341421909 "Sensor Variable Font - meteo")
 
-En el tercer prototipo se pretende explorar la relación entre sensores que detecten fenómenos climatológicos con las capacidades expresivas de la tipografía en el espacio público de las ciudades. Para ello se ha empleado un sensor de temperatura y de nivel de agua (simulando un sensor de lluvia) en un panel informativo electrónico o más comúnmente conocido como mupi.
+The third prototype aims to explore the relationship between sensors that detect climatological phenomena and the expressive capacities of typography in the public space of cities.
 
-Por un lado estaría el sensor de temperatura, concretamente el modelo LM35. En este caso los valores pueden ser muy amplios, desde temperaturas por debajo de los cero grados a temperaturas hasta los 50º, por lo que se ha considerado oportuno para los propósitos del prototipo limitarnos entre 20º y 45º. El valor registrado se actualiza cada 1000 milisegundos. El otro sensor empleado que detecta el nivel de agua, registra valores que oscilan entre 2 y 265.
+For this purpose, a temperature and water level sensor (simulating a rain sensor) has been used in a electronic billboard or more commonly known in Spain as mupi.
 
-Y por otro la tipografía variable Source Sans Variable, tanto en su versión Roman para reproducir la temperatura, como la versión Italic para representar el grosor de las gotas de lluvia. En ambos casos se ha hecho uso del eje de variación Peso, con un valor mínimo de 200 y un valor máximo de 900.
+On the one hand would be the temperature sensor, specifically the LM35 model. In this case the values can be very wide, from temperatures below zero degrees to temperatures up to 50 degrees, so it has been considered appropriate for the purposes of the prototype to limit us between 20 º and 45 º. The recorded value is updated every 1000 milliseconds. The other sensor used, which detects the water level, records values ranging from 2 to 265.
 
-La Función significativa empleada ha sido secuencialidad y continuidad. El propósito ha sido reflejar de una manera progresiva y acorde el fenómeno meteorológico registrado con la tipografía. Si aumenta la temperatura y/o los valores de lluvia aumenta el peso de la tipografía.
+And on the other hand the variable font Source Sans Variable, both in its Roman version to reproduce the temperature, and the Italic version to represent the thickness of raindrops. In both cases the Weight variation axis has been used, with a minimum value of 200 and a maximum value of 900.
 
-Una vez que se ha establecido la intención significativa se prosigue con la Función normalizadora que establece una relación entre los valores mínimos y máximos correspondientes de los sensores y tipografía.
-Finalmente una vez que el valor normalizado se ha transformado a partir del proceso de significación se decide aplicar a todos los glifos.
+The Significant Function used has been sequentiality and continuity. The purpose has been to reflect in a progressive way and according to the meteorological phenomenon registered with the typography. If the temperature and/or rainfall values increase, the weight of the typography increases.
+
+Once the significant intention has been established, the Normalizing Function continues, which establishes a relationship between the corresponding minimum and maximum values of the sensors and typography. Finally, once the normalized value has been transformed from the signification process, it is decided to apply it to all the glyphs.
